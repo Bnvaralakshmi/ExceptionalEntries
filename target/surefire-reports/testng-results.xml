@@ -1,0 +1,107 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<testng-results ignored="0" total="1" passed="1" failed="0" skipped="0">
+  <reporter-output>
+    <line>
+      <![CDATA[***************************************************************<p>]]>
+    </line>
+    <line>
+      <![CDATA[File message: File has been processed successfully.<p>]]>
+    </line>
+    <line>
+      <![CDATA[***************************************************************<p>]]>
+    </line>
+    <line>
+      <![CDATA[_____________________________________________________________________ <p>]]>
+    </line>
+    <line>
+      <![CDATA[SCN present in Entries table: 123456746<p>]]>
+    </line>
+    <line>
+      <![CDATA[SCN present in Entries table: 123456745<p>]]>
+    </line>
+    <line>
+      <![CDATA[SCN present in Entries table: 123456745<p>]]>
+    </line>
+    <line>
+      <![CDATA[SCN present in Entries table: 123456743<p>]]>
+    </line>
+    <line>
+      <![CDATA[SCN *NOT* present in Entries table: 123456747<p>]]>
+    </line>
+    <line>
+      <![CDATA[SCN *NOT* present in Entries table: 123456748<p>]]>
+    </line>
+    <line>
+      <![CDATA[SCN *NOT* present in Entries table: 123456749<p>]]>
+    </line>
+    <line>
+      <![CDATA[_____________________________________________________________________ <p>]]>
+    </line>
+  </reporter-output>
+  <suite started-at="2020-03-02T15:50:56 GMT" name="Suite" finished-at="2020-03-02T15:51:13 GMT" duration-ms="17329">
+    <groups>
+      <group name="cucumber">
+        <method signature="AbstractTestNGCucumberTests.feature(cucumber.api.testng.CucumberFeatureWrapper)[pri:0, instance:RunnerFile.RunnerClass@7e057f43]" name="feature" class="cucumber.api.testng.AbstractTestNGCucumberTests"/>
+      </group> <!-- cucumber -->
+    </groups>
+    <test started-at="2020-03-02T15:50:56 GMT" name="Test" finished-at="2020-03-02T15:51:13 GMT" duration-ms="17329">
+      <class name="RunnerFile.RunnerClass">
+        <test-method is-config="true" signature="setUpClass()[pri:0, instance:RunnerFile.RunnerClass@7e057f43]" started-at="2020-03-02T15:50:56 GMT" name="setUpClass" finished-at="2020-03-02T15:50:56 GMT" duration-ms="402" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- setUpClass -->
+        <test-method signature="feature(cucumber.api.testng.CucumberFeatureWrapper)[pri:0, instance:RunnerFile.RunnerClass@7e057f43]" started-at="2020-03-02T15:50:56 GMT" name="feature" description="Runs Cucumber Feature" data-provider="features" finished-at="2020-03-02T15:51:13 GMT" duration-ms="16781" status="PASS">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[Exceptional Entries Feature File]]>
+              </value>
+            </param>
+          </params>
+          <reporter-output>
+            <line>
+              <![CDATA[***************************************************************<p>]]>
+            </line>
+            <line>
+              <![CDATA[File message: File has been processed successfully.<p>]]>
+            </line>
+            <line>
+              <![CDATA[***************************************************************<p>]]>
+            </line>
+            <line>
+              <![CDATA[_____________________________________________________________________ <p>]]>
+            </line>
+            <line>
+              <![CDATA[SCN present in Entries table: 123456746<p>]]>
+            </line>
+            <line>
+              <![CDATA[SCN present in Entries table: 123456745<p>]]>
+            </line>
+            <line>
+              <![CDATA[SCN present in Entries table: 123456745<p>]]>
+            </line>
+            <line>
+              <![CDATA[SCN present in Entries table: 123456743<p>]]>
+            </line>
+            <line>
+              <![CDATA[SCN *NOT* present in Entries table: 123456747<p>]]>
+            </line>
+            <line>
+              <![CDATA[SCN *NOT* present in Entries table: 123456748<p>]]>
+            </line>
+            <line>
+              <![CDATA[SCN *NOT* present in Entries table: 123456749<p>]]>
+            </line>
+            <line>
+              <![CDATA[_____________________________________________________________________ <p>]]>
+            </line>
+          </reporter-output>
+        </test-method> <!-- feature -->
+        <test-method is-config="true" signature="tearDownClass()[pri:0, instance:RunnerFile.RunnerClass@7e057f43]" started-at="2020-03-02T15:51:13 GMT" name="tearDownClass" finished-at="2020-03-02T15:51:13 GMT" duration-ms="4" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- tearDownClass -->
+      </class> <!-- RunnerFile.RunnerClass -->
+    </test> <!-- Test -->
+  </suite> <!-- Suite -->
+</testng-results>

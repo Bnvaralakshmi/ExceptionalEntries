@@ -1,0 +1,5 @@
+PageObjects\Compare.class
+RunnerFile\RunnerClass.class
+Utility\EE_UtilityFile.class
+PageObjects\LoginPage.class
+StepDefinition\StepDefinition.class
